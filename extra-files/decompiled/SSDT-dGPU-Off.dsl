@@ -3,7 +3,7 @@
 */
 DefinitionBlock("", "SSDT", 2, "DRTNIA", "dGPU-Off", 0)
 {
-External(_SB.PCI0.PEG0.PEGP._OFF, MethodObj) // ACPI Path of dGPU
+External(_SB.PCI0.GP17._OFF, MethodObj) // ACPI Path of dGPU
 
     Device(RMD1)
     {
